@@ -6,20 +6,20 @@
 
 // console.log(40+8+23-10); 주석처리 단축키 command + /
 
-console.log("Shini");
+console.log("Shin");
 console.log(23);
 
-let firstName = "Shini"; // camelCase
+let firstName = "Shin"; // camelCase
 
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
 // Variable name conventions
-let shini_eunjung = "SEJ";
+let Shin_eunjung = "SEJ";
 let $function = 35;
 
-let person = 'shini';
+let person = 'Shin';
 let PI = 3.1415;
 
 let myFirstJob = 'oL';
@@ -29,7 +29,7 @@ let job1 = 'OL';
 let job2 = 'Programmer';
 
 console.log(myFirstJob);
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -37,7 +37,7 @@ console.log(javascriptIsFun);
 // console.log(typeof true);
 console.log(typeof javascriptIsFun);
 // console.log(typeof 23);
-// console.log(typeof 'Shini');
+// console.log(typeof 'Shin');
 
 javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
@@ -46,18 +46,71 @@ let year;
 console.log(year);
 console.log(typeof year);
 
-year = 1987;
+year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
 
 
+let age = 35;
+age = 36;
+
+const birthYear = 1991;
+// birthYear = 1986;
+
+// const job;
+
+var job = 'programmer';
+job = 'teacher';
 
 
+lastName = 'Eunjung';
+console.log(lastName);
 
 
+// Math operator
+const now = 2037;
+const ageShin = now - 1991;
+const ageKim = now - 2018;
+console.log(ageShin, ageKim);
+
+console.log(ageShin * 2, ageKim / 10, 2 ** 3);
+// 2 ** 3 means 2 to ther power of 3 = 2 * 2 * 2
+
+const firstName = 'Shin';
+const lastName = 'Eunjung';
+console.log(firstName + ' ' + lastName);
 
 
+// Assignment operator
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--; // x = x - 1
+x--;
+console.log(x);
 
 
+// Comparison operators
+console.log(ageShin > ageKim); // > , < , >= , <=
+console.log(ageKim >= 18);
+
+const isFullAge = ageKim >= 18;
+
+console.log(now - 1991 > now - 2018)
+*/
+
+const now = 2037;
+const ageShin = now - 1991;
+const ageKim = now - 2018;
+
+console.log(now - 1991 > now - 2018)
+
+let x , y;
+x = y = 25-10-5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageShin + ageKim) / 2;
+console.log(ageShin, ageKim, averageAge);
 
