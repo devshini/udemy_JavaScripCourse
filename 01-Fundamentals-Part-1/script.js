@@ -99,7 +99,7 @@ console.log(ageKim >= 18);
 const isFullAge = ageKim >= 18;
 
 console.log(now - 1991 > now - 2018)
-*/
+
 
 const now = 2037;
 const ageShin = now - 1991;
@@ -113,4 +113,47 @@ console.log(x, y);
 
 const averageAge = (ageShin + ageKim) / 2;
 console.log(ageShin, ageKim, averageAge);
+
+
+const firstName = 'Shin';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const shin = "I'm " + firstName + ', a ' + (year - birthYear) +  ' years old ' + job + '!';
+console.log(shin);
+
+const shinNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(shinNew);
+
+console.log(`Just a reqular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+*/
+
+const age = 15;
+
+if(age >= 18) {
+  console.log('Sarah can start driving license 🚗')
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. wait another ${yearsLeft} years 😊`)
+}
+
+const birthYear = 2021;
+
+let century;
+if(birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
 
