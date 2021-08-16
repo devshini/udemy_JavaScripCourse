@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('========= assignments ==========');
 
 console.log('\n\n+++++ 1. Values and Variables +++++');

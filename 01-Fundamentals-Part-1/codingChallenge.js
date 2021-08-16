@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('========= Coding Challenge ==========');
 
 // coding challenge #1

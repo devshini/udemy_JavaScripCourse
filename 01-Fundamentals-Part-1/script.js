@@ -1,3 +1,5 @@
+'use strict';
+
 /* let js = 'amazing';
 
 // - Linking a JavaScript File
