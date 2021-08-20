@@ -218,6 +218,7 @@ const jessica2 = {
   family : ['Alice', 'Bob'],
 };
 
+
 const jessicaCopy = Object.assign({}, jessica2);
 jessicaCopy.lastName = 'Davis';
 
