@@ -48,6 +48,18 @@ const restaurant = {
   },
 };
 
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu);
+
+for (const item of menu) console.log(item);
+
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
+
+// console.log([...menu.entries()]);
+
+/*
 // restaurant.numGuests = 0;
 const guests = restaurant.numGuests || 10;
 console.log(guests);
@@ -56,7 +68,7 @@ console.log(guests);
 const guestCorrect = restaurant.numGuests ?? 10;
 console.log(guestCorrect);
 
-/*
+
 //Short Circuiting (&& and ||)
 console.log('---- OR ----');
 // Use ANY data type, return ANY data type, short-circuiting
